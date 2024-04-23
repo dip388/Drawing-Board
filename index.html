@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DrawBoard</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="website icon" href="./graphics/HG logo2.png" type="png">
+</head>
+<body>
+
+    <div class="main">
+
+        <div id="titl">
+            <h2>Drawing Board By <i>Harsh Gaikwad</i></h2>
+        </div>
+
+        <div class="tools">
+
+            <div id="size">
+
+                <p>Select Brush Size :</p>
+                <button class="pm" id="minus">-</button>
+                <p id="count">5</p>
+                <button class="pm" id="plus">+</button>
+
+            </div>
+
+            <div id="colorPicker">
+
+                <p>Select color :</p>
+                <input type="color" name="favcolor" id="favcolor">
+
+            </div>
+
+            <div id="clear">
+                <button id="clearBtn">Clear</button>
+            </div>
+
+            <div id="mod">
+                <p>Mode:</p>
+                <button id="modeBtn">Light</button>
+            </div>
+        </div>
+
+        <div class="CanvasBoard">
+            <canvas id="Canvas"></canvas>
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+    
+</body>
+</html>
